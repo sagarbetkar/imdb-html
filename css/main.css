@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Squirrel";
+  src: url("fonts/PTN77F-webfont.eot") format("eot"),
+       url("fonts/PTN77F-webfont.svg") format("svg"),
+       url("fonts/PTN77F-webfont.ttf") format("ttf"),
+       url("fonts/PTN77F-webfont.woff") format("woff");
+}
+
+body{
+  font-family: 'Squirrel', sans-serif;
+}
+.navbar-default{
+  background: #1F1F1F;
+}
+.navbar-brand{
+  padding: 0 15px;
+}
+.navbar-brand img{
+  margin: 0 70px;
+}
+.navbar-nav {
+    margin: 0 80px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #fff;
+}
