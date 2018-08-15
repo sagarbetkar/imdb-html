@@ -10,7 +10,10 @@ body{
   font-family: 'Squirrel', sans-serif;
 }
 .navbar-default{
-  background: #1F1F1F;
+  background-image: url("/imdb-html/img/header-bg.png");
+  border:none;
+  border-radius: 0px;
+  margin-bottom: 0px;
 }
 .navbar-brand{
   padding: 0 15px;
@@ -26,4 +29,12 @@ body{
 }
 .navbar-default .navbar-nav > li > a:hover {
   color: #fff;
+}
+.movie-of-the-day{
+  background-image: url("/imdb-html/img/header-bg.png");
+  margin-top: -50px;
+}
+.star-rating{
+  background-image: url("/imdb-html/img/star-icon.png");
+  background-repeat: repeat;
 }
