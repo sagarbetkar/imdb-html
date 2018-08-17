@@ -6,16 +6,16 @@
        url("fonts/PTN77F-webfont.woff") format("woff");
 }
 
-body{
+body {
   font-family: 'Squirrel', sans-serif;
 }
-.navbar-default{
+.navbar-default {
   background-image: url("/imdb-html/img/header-bg.png");
   border:none;
   border-radius: 0px;
   margin-bottom: 0px;
 }
-.navbar-brand{
+.navbar-brand {
   padding: 0 15px;
 }
 .navbar-brand img{
@@ -30,48 +30,91 @@ body{
 .navbar-default .navbar-nav > li > a:hover {
   color: #fff;
 }
-.movie-of-the-day{
+.movie-of-the-day {
   background-image: url("/imdb-html/img/header-bg.png");
   margin-top: -50px;
 }
-.star-rating{
+.star-rating {
   background-image: url("/imdb-html/img/star-icon.png");
   background-repeat: repeat;
 }
 
-.more-movies{
+.more-movies {
   background-color: #efefef;
+  padding: 60px 0;
 }
-
-footer{
+.movie-of-the-mouth {
+  padding: 60px 0;
+}
+footer {
   background-color: #1b1b1b;
   color: #7c7c7c;
   padding: 50px 0;
 }
-.blue{
+.blue {
   color:#5293c2;
 }
-.blue h4{
+.blue h4 {
   font-weight: bolder;
 }
-.list p{
+.list p {
   border-bottom: 1px solid #343434;
   color: #868686;
   font-weight: bold;
 }
-.list p span{
+.list p span {
   font-weight: lighter;
   float: right;
 }
-.logo{
+.logo {
   border-bottom: 1px solid #343434;
 }
-.text{
+.text {
   margin-top: 15px;
   text-align: center;
   margin-bottom: 15px;
   border-bottom: 1px solid #343434;
 }
-.social{
+.social {
   text-align: center;
+}
+.dreamworks, .jurors, .cards, .kay, .fantastic, .rome, .Loopers {
+  margin: 30px 0;
+}
+.big-image img {
+  width: 100%;
+}
+.like-view ul {
+  padding: 0;
+}
+.like-view ul li {
+  display: inline;
+}
+.card {
+  background-color: #fff;
+  width: 250px;
+  border-radius: 4px;
+}
+.card-img-top, .movie-image {
+  width: 100%;
+}
+.card-body {
+  margin: 25px 15px;
+}
+.like-view {
+  padding: 10px 0;
+}
+
+.card-title, .big-img-title, .decription h5{
+  color: #5293c2;
+}
+.header h4{
+  color: #9b9b9b;
+  font-weight: 300;
+}
+.col-sm-3 .card {
+  width: 200px;
+}
+.movie-image img {
+  width: 100%;
 }
