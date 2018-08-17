@@ -38,3 +38,40 @@ body{
   background-image: url("/imdb-html/img/star-icon.png");
   background-repeat: repeat;
 }
+
+.more-movies{
+  background-color: #efefef;
+}
+
+footer{
+  background-color: #1b1b1b;
+  color: #7c7c7c;
+  padding: 50px 0;
+}
+.blue{
+  color:#5293c2;
+}
+.blue h4{
+  font-weight: bolder;
+}
+.list p{
+  border-bottom: 1px solid #343434;
+  color: #868686;
+  font-weight: bold;
+}
+.list p span{
+  font-weight: lighter;
+  float: right;
+}
+.logo{
+  border-bottom: 1px solid #343434;
+}
+.text{
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #343434;
+}
+.social{
+  text-align: center;
+}
