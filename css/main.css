@@ -118,3 +118,47 @@ footer {
 .movie-image img {
   width: 100%;
 }
+blockquote {
+    background: #000;
+    border-radius: 5px;
+    border-left: 0;
+    color: #808080;
+    font-size: 14px;
+    width: 465px;
+}
+.movie-head {
+  color: #fafafa;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+.head {
+  color: #5293c2;
+  font-weight: bold;
+}
+.movie-of-the-day {
+  padding: 80px 0;
+}
+.star-rating {
+  background-image: url('../img/star-icon.png');
+  height: 20px;
+  width: 20px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin: auto;
+  background-size: 110%;
+}
+
+.star-rating:hover {
+  animation-name: star;
+  animation-duration: .8s;
+  animation-iteration-count: 1;
+  animation-timing-function:steps(10);
+  animation-fill-mode: forwards;
+  animation-direction: normal;
+}
+
+@keyframes star {
+  0%   { background-position: bottom;  }
+  50%  { background-position: top; }
+  100% { background-position: top; }
+}
