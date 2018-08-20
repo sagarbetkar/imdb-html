@@ -158,7 +158,13 @@ blockquote {
 }
 
 @keyframes star {
-  0%   { background-position: bottom;  }
+  0%   { background-position: top;  }
   50%  { background-position: top; }
   100% { background-position: top; }
+}
+
+.rating {
+  display: grid;
+  grid-template-columns: 20px 20px 20px 20px 20px;
+  margin: 15px 60px -25px;
 }
